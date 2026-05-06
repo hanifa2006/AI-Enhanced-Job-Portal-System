@@ -14,7 +14,68 @@ window.$RefreshSig$ = () => (type) => type;</script>
     <link rel="icon" type="image/svg+xml" href="http://localhost:5173/favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>client</title>
-  <style type="text/css" data-vite-dev-id="C:/Users/hanifa shaik/OneDrive/Desktop/KLH/AI-Enhanced-Job-Portal-System/client/src/index.css">:root {
+  <style type="text/css" data-vite-dev-id="C:/Users/hanifa shaik/OneDrive/Desktop/KLH/AI-Enhanced-Job-Portal-System/client/src/App.css">/* Make app full height and allow centering */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header: everything centered */
+.header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #0f172a;
+  color: #fff;
+}
+
+.logo {
+  margin: 0 0 1rem 0;
+  font-size: 1.4rem;
+}
+
+/* Vertical navigation: centered under logo */
+.nav-vertical {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-vertical ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.nav-vertical li {
+  margin-bottom: 0.4rem;
+}
+
+.nav-vertical a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.nav-vertical a:hover {
+  text-decoration: underline;
+}
+
+/* Center main content */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  padding: 2rem;
+}
+
+.page {
+  text-align: center;
+}
+
+.home-page {
+  max-width: 600px;
+}</style><style type="text/css" data-vite-dev-id="C:/Users/hanifa shaik/OneDrive/Desktop/KLH/AI-Enhanced-Job-Portal-System/client/src/index.css">:root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -136,7 +197,7 @@ code {
         }
       </style><link type="text/css" rel="stylesheet" href="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/css/mcafee_fonts.css"></head>
   <body>
-    <div id="root"><div><header class="header"><h1>AI-Enhanced Job Portal System</h1><nav><a href="http://localhost:5173/" data-discover="true">Home</a><a href="http://localhost:5173/login" data-discover="true">Login</a><a href="http://localhost:5173/register" data-discover="true">Register</a><a href="http://localhost:5173/dashboard/candidate" data-discover="true">Candidate</a><a href="http://localhost:5173/dashboard/employer" data-discover="true">Employer</a><a href="http://localhost:5173/dashboard/admin" data-discover="true">Admin</a><a href="http://localhost:5173/my-applications" data-discover="true">My Applications</a></nav></header><main class="main"><div class="page"><h2>Register</h2><form class="form"><input placeholder="Full Name" required="" type="text" value="diyac" name="name" fdprocessedid="2qegmv" data-listener-added_5458fe8c="true"><input placeholder="Email" required="" type="email" value="diyacand@gmail.com" name="email" fdprocessedid="cquuto" data-listener-added_5458fe8c="true"><input placeholder="Password" required="" type="password" value="diya0987" name="password" fdprocessedid="tfnzmb"><select name="role" fdprocessedid="db1g4"><option value="candidate">Candidate</option><option value="employer">Employer</option></select><button type="submit" fdprocessedid="w17r6">Create Account</button></form></div></main></div></div>
+    <div id="root"><div class="app"><header class="header"><h1 class="logo">AI-Enhanced Job Portal System</h1><nav class="nav-vertical"><ul><li><a href="http://localhost:5173/" data-discover="true">Home</a></li><li><a href="http://localhost:5173/login" data-discover="true">Login</a></li><li><a href="http://localhost:5173/register" data-discover="true">Register</a></li><li><a href="http://localhost:5173/dashboard/candidate" data-discover="true">Candidate</a></li><li><a href="http://localhost:5173/dashboard/employer" data-discover="true">Employer</a></li><li><a href="http://localhost:5173/dashboard/admin" data-discover="true">Admin</a></li><li><a href="http://localhost:5173/my-applications" data-discover="true">My Applications</a></li></ul></nav></header><main class="main"><div class="page"><h2>Register</h2><form class="form"><input placeholder="Full Name" required="" type="text" value="shaik Bobby" name="name" fdprocessedid="12bk1c" data-listener-added_d543c269="true"><input placeholder="Email" required="" type="email" value="bobby.shaik@example.com" name="email" fdprocessedid="5h0rm" data-listener-added_d543c269="true"><input placeholder="Password" required="" type="password" value="bobby@1234" name="password" fdprocessedid="2ulvz" data-listener-added_d543c269="true"><select name="role" fdprocessedid="3ql91"><option value="candidate">Candidate</option><option value="employer">Employer</option></select><button type="submit" fdprocessedid="mvx0bn">Create Account</button></form></div></main><footer style="margin-top: 2rem; text-align: center; padding: 1rem 0px; font-size: 0.9rem; color: rgb(85, 85, 85); border-top: 1px solid rgb(221, 221, 221);">© 2026 AI-Enhanced Job Portal · Developed by Shaik Hanifa</footer></div></div>
     <script type="module" src="./auth_files/main.jsx"></script>
   
 

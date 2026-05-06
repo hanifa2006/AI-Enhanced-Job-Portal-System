@@ -14,7 +14,68 @@ window.$RefreshSig$ = () => (type) => type;</script>
     <link rel="icon" type="image/svg+xml" href="http://localhost:5173/favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>client</title>
-  <style type="text/css" data-vite-dev-id="C:/Users/hanifa shaik/OneDrive/Desktop/KLH/AI-Enhanced-Job-Portal-System/client/src/index.css">:root {
+  <style type="text/css" data-vite-dev-id="C:/Users/hanifa shaik/OneDrive/Desktop/KLH/AI-Enhanced-Job-Portal-System/client/src/App.css">/* Make app full height and allow centering */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header: everything centered */
+.header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #0f172a;
+  color: #fff;
+}
+
+.logo {
+  margin: 0 0 1rem 0;
+  font-size: 1.4rem;
+}
+
+/* Vertical navigation: centered under logo */
+.nav-vertical {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-vertical ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.nav-vertical li {
+  margin-bottom: 0.4rem;
+}
+
+.nav-vertical a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.nav-vertical a:hover {
+  text-decoration: underline;
+}
+
+/* Center main content */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  padding: 2rem;
+}
+
+.page {
+  text-align: center;
+}
+
+.home-page {
+  max-width: 600px;
+}</style><style type="text/css" data-vite-dev-id="C:/Users/hanifa shaik/OneDrive/Desktop/KLH/AI-Enhanced-Job-Portal-System/client/src/index.css">:root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -136,7 +197,7 @@ code {
         }
       </style></head>
   <body>
-    <div id="root"><div><header class="header"><h1>AI-Enhanced Job Portal System</h1><nav><a href="http://localhost:5173/" data-discover="true">Home</a><a href="http://localhost:5173/login" data-discover="true">Login</a><a href="http://localhost:5173/register" data-discover="true">Register</a><a href="http://localhost:5173/dashboard/candidate" data-discover="true">Candidate</a><a href="http://localhost:5173/dashboard/employer" data-discover="true">Employer</a><a href="http://localhost:5173/dashboard/admin" data-discover="true">Admin</a><a href="http://localhost:5173/my-applications" data-discover="true">My Applications</a></nav></header><main class="main"><div class="page"><h2>Welcome to the AI-Enhanced Job Portal</h2><p>Select your role and start using the portal.</p></div></main></div></div>
+    <div id="root"><div class="app"><header class="header"><h1 class="logo">AI-Enhanced Job Portal System</h1><nav class="nav-vertical"><ul><li><a href="http://localhost:5173/" data-discover="true">Home</a></li><li><a href="http://localhost:5173/login" data-discover="true">Login</a></li><li><a href="http://localhost:5173/register" data-discover="true">Register</a></li><li><a href="http://localhost:5173/dashboard/candidate" data-discover="true">Candidate</a></li><li><a href="http://localhost:5173/dashboard/employer" data-discover="true">Employer</a></li><li><a href="http://localhost:5173/dashboard/admin" data-discover="true">Admin</a></li><li><a href="http://localhost:5173/my-applications" data-discover="true">My Applications</a></li></ul></nav></header><main class="main"><div class="page home-page"><h2>Welcome to the AI-Enhanced Job Portal</h2><p>Select your role and start using the portal.</p></div></main><footer style="margin-top: 2rem; text-align: center; padding: 1rem 0px; font-size: 0.9rem; color: rgb(85, 85, 85); border-top: 1px solid rgb(221, 221, 221);">© 2026 AI-Enhanced Job Portal · Developed by Shaik Hanifa</footer></div></div>
     <script type="module" src="./home_files/main.jsx"></script>
   
 
