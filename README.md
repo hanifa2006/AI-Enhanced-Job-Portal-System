@@ -75,6 +75,23 @@ Frontend will run on `http://localhost:5173`.
 - Resume upload and AI-based job recommendations.
 - Better UI styling (e.g., Tailwind or Material UI).
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Login / Register
+![Auth Page](screenshots/auth.png)
+
+### Candidate Dashboard
+![Candidate Dashboard](screenshots/candidate-dashboard.png)
+
+### Employer Dashboard
+![Employer Dashboard](screenshots/employer-dashboard.png)
+
+### My Applications
+![My Applications](screenshots/my-applications.png)
+
 ## Author
 
 **Shaik Hanifa**
